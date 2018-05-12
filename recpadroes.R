@@ -1,6 +1,9 @@
 getwd()
 
 #Leitura dos Dados
+
+#Dados podem ser obtidos no link da UCS: https://archive.ics.uci.edu/ml/datasets/magic+gamma+telescope
+
 dados <- read.table("telescope.txt",header=TRUE,sep=",")
 
 summary(dados)  #Teste, se importou corretamente a tabela
